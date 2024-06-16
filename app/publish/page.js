@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import '../styles/publish.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { BASE_URL } from "@/utils/headers";
 
 const Page = () => {
   const [title, setTitle] = useState('');

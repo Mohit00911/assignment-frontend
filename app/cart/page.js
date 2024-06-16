@@ -4,6 +4,7 @@ import '../styles/cart.css';
 import { MdDelete } from "react-icons/md";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { BASE_URL } from "@/utils/headers";
 
 const Page = () => {
     const [cartItems, setCartItems] = useState([]);
